@@ -4,10 +4,11 @@ import com.ujava.app.metodos_de_cadenas.TrabajoConCadenas;
 import com.ujava.app.strings.ComparandoCadenas;
 import com.ujava.app.strings.Indices;
 import com.ujava.app.strings.Metodos;
+import com.ujava.app.strings.SubCadenas;
 import com.ujava.app.tienda_linea.Producto;
 
 public class Main {
-    
+
     public static void main(String[] args) {
         System.out.println("Empezamos a aprender Java otra vez ptm XD");
         /*Solucion.solucion(); //Reto detalle Persona*/
@@ -22,6 +23,7 @@ public class Main {
         Indices.test();
         ComparandoCadenas.comparaCadena();
         Metodos.test();
+        SubCadenas.pruebaSubcadena();
     }
 
     public static void productoSolucion(){

@@ -13,7 +13,7 @@ public class Main {
 
         /*String color;
         System.out.println(color);
-        color = "rojo";*/
+        color = "rojo";
 
         //productoSolucion();
 
@@ -21,9 +21,10 @@ public class Main {
         Indices.test();
         ComparandoCadenas.comparaCadena();
         Metodos.test();
-        SubCadenas.pruebaSubcadena();
+        SubCadenas.pruebaSubcadena();*/
         BuscarSubcadenas.testBuscandoSubCadena();
-
+        ReemplazarSubcadenas.testito();
+        
     }
 
     public static void productoSolucion(){

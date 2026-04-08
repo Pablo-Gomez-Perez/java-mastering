@@ -1,11 +1,9 @@
 package com.ujava.app;
 
 import com.ujava.app.metodos_de_cadenas.TrabajoConCadenas;
-import com.ujava.app.strings.ComparandoCadenas;
-import com.ujava.app.strings.Indices;
-import com.ujava.app.strings.Metodos;
-import com.ujava.app.strings.SubCadenas;
+import com.ujava.app.strings.*;
 import com.ujava.app.tienda_linea.Producto;
+import com.ujava.app.utilsXd.ConsoleUI;
 
 public class Main {
 
@@ -24,6 +22,8 @@ public class Main {
         ComparandoCadenas.comparaCadena();
         Metodos.test();
         SubCadenas.pruebaSubcadena();
+        BuscarSubcadenas.testBuscandoSubCadena();
+
     }
 
     public static void productoSolucion(){
